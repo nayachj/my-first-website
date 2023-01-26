@@ -13,59 +13,78 @@
             
     <title>WEB1 - CSS</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1><a href= "index.html">WEB</a></h1>
+
+    <div id = "grid">
+
     <ol>
         <li><a href= "1.html">HTML</a></li>
         <li><a href= "2.html">CSS</a></li>
         <li><a href= "3.html">JavaScript</a></li>
     </ol>
-    <h2>CSS</h2>
-    <p>
-        다른 뜻에 대해서는 CSS (동음이의) 문서를 참고하십시오.
-        캐스케이딩 스타일 시트
-        Cascading Style Sheets (CSS)
-        CSS3 logo and wordmark.svg
-        파일 확장자	.css
-        인터넷 미디어 타입	
-        text/css
-        UTI	style.css
-        개발	월드 와이드 웹 컨소시엄 (W3C)
-        발표일	1996년 12월 17일(26년 전)
-        최신 버전	
-        CSS 2.1 : 레벨 2 리비전 1
-        (2016년 4월 12일(6년 전))
-        포맷 종류	스타일 시트 언어
-        다음의 컨테이너	HTML 요소의 스타일 규칙 (태그)
-        다음에 포함	HTML 도큐먼트
-        오픈 포맷?	예
-        웹사이트	www.w3.org/TR/CSS/#css
-        HTML
-        DHTMLHTML5 오디오캔버스비디오XHTML 베이직모바일 프로파일C-HTMLHTML 요소 span과 divHTML 속성HTML 프레임HTML 편집기문자 인코딩 유니코드언어 코드문서 객체 모델브라우저 오브젝트 모델스타일 시트 CSS폰트 패밀리웹 색상자바스크립트 WebGLWebCLW3C 밸리데이터WHATWG쿼크 모드웹 스토리지렌더링 엔진
-        비교
-        문서 마크업 언어HTML 지원XHTML 1.1
-        CSS
-        스타일 시트CSS 젠 가든
-        개념
-        애니메이션박스 모델이미지 치환플렉스박스그리드
-        철학
-        테이블리스반응형홀리 그레일
-        도구
-        SassLess스타일러스CSSTidy
-        비교
-        CSS 지원스타일시트 언어
-        위키책 CSS
-        vte
-        종속형 시트 또는 캐스케이딩 스타일 시트(영어: Cascading Style Sheet)는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(영어: Style sheet language 스타일 시트 랭귀지[*])로[1], HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다. W3C의 표준이고, 레이아웃과 스타일을 정의할 때의 자유도가 높다.
-        
-        기본 파일명[2]은 style.css이다.
-        
-        마크업 언어(ex: HTML)가 웹사이트의 몸체를 담당한다면 CSS는 옷과 액세서리처럼 꾸미는 역할을 담당한다고 할 수 있다. 즉, HTML 구조는 그대로 두고 CSS 파일만 변경해도 전혀 다른 웹사이트처럼 꾸밀 수 있다.
-        
-        현재 개발 중인 CSS3의 경우 그림자 효과, 그라데이션, 변형 등 그래픽 편집 프로그램으로 제작한 이미지를 대체할 수 있는 기능이 추가되었다. 또한 다양한 애니메이션 기능이 추가되어 어도비 플래시를 어느 정도 대체하고 있다.
-    </p>
+
+
+    <!-- <h1><a href= "index.html"><font color = "red">WEB</font></a></h1>
+    <ol>
+        <li><a href= "1.html"><font color = "red">HTML</font></a></li>
+        <li><a href= "2.html"><font color = "red">CSS</font></a></li>
+        <li><a href= "3.html"><font color = "red">JavaScript</font></a></li>
+    </ol> -->
+
+    <div id="article">
+        <h2>CSS</h2>
+        <p>
+            다른 뜻에 대해서는 CSS (동음이의) 문서를 참고하십시오.
+            캐스케이딩 스타일 시트
+            Cascading Style Sheets (CSS)
+            CSS3 logo and wordmark.svg
+            파일 확장자	.css
+            인터넷 미디어 타입	
+            text/css
+            UTI	style.css
+            개발	월드 와이드 웹 컨소시엄 (W3C)
+            발표일	1996년 12월 17일(26년 전)
+            최신 버전	
+            CSS 2.1 : 레벨 2 리비전 1
+            (2016년 4월 12일(6년 전))
+            포맷 종류	스타일 시트 언어
+            다음의 컨테이너	HTML 요소의 스타일 규칙 (태그)
+            다음에 포함	HTML 도큐먼트
+            오픈 포맷?	예
+            웹사이트	www.w3.org/TR/CSS/#css
+            HTML
+            DHTMLHTML5 오디오캔버스비디오XHTML 베이직모바일 프로파일C-HTMLHTML 요소 span과 divHTML 속성HTML 프레임HTML 편집기문자 인코딩 유니코드언어 코드문서 객체 모델브라우저 오브젝트 모델스타일 시트 CSS폰트 패밀리웹 색상자바스크립트 WebGLWebCLW3C 밸리데이터WHATWG쿼크 모드웹 스토리지렌더링 엔진
+            비교
+            문서 마크업 언어HTML 지원XHTML 1.1
+            CSS
+            스타일 시트CSS 젠 가든
+            개념
+            애니메이션박스 모델이미지 치환플렉스박스그리드
+            철학
+            테이블리스반응형홀리 그레일
+            도구
+            SassLess스타일러스CSSTidy
+            비교
+            CSS 지원스타일시트 언어
+            위키책 CSS
+            vte
+            종속형 시트 또는 캐스케이딩 스타일 시트(영어: Cascading Style Sheet)는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(영어: Style sheet language 스타일 시트 랭귀지[*])로[1], HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다. W3C의 표준이고, 레이아웃과 스타일을 정의할 때의 자유도가 높다.
+            
+            기본 파일명[2]은 style.css이다.
+            
+            마크업 언어(ex: HTML)가 웹사이트의 몸체를 담당한다면 CSS는 옷과 액세서리처럼 꾸미는 역할을 담당한다고 할 수 있다. 즉, HTML 구조는 그대로 두고 CSS 파일만 변경해도 전혀 다른 웹사이트처럼 꾸밀 수 있다.
+            
+            현재 개발 중인 CSS3의 경우 그림자 효과, 그라데이션, 변형 등 그래픽 편집 프로그램으로 제작한 이미지를 대체할 수 있는 기능이 추가되었다. 또한 다양한 애니메이션 기능이 추가되어 어도비 플래시를 어느 정도 대체하고 있다.
+        </p>
+    </div>
+
+            
+</div>
+
     <p>
         <div id="disqus_thread"></div>
         <script>
